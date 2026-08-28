@@ -47,7 +47,7 @@ export function buildWorkerArgv(opts: {
 	const args = [
 		...pi.baseArgs,
 		"--no-extensions",
-		"--extension git:github.com/ravshansbox/pi-opencode-zen",
+		"--extension", "git:github.com/ravshansbox/pi-opencode-zen",
 		"--no-skills",
 		"--no-prompt-templates",
 		"--no-context-files",
