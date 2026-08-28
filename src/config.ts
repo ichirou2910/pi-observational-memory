@@ -7,6 +7,7 @@ export interface ConfiguredModel {
 	provider: string;
 	id: string;
 	thinking?: ModelThinkingLevel;
+	extraArgs?: string;
 }
 
 export interface Config {

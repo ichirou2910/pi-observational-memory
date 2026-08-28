@@ -55,6 +55,7 @@ export function buildWorkerArgv(opts: {
 		modelArg(opts.model),
 	];
 	if (opts.model.thinking) args.push("--thinking", opts.model.thinking);
+	if (opts.model.extraArgs) args.push(opts.model.extraArgs);
 	args.push("-e", opts.agentExtensionPath ?? AGENT_EXTENSION_PATH);
 	args.push("-n", opts.sessionName);
 	args.push("-p", opts.kickoffPrompt);
