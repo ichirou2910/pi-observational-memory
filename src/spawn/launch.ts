@@ -47,7 +47,7 @@ export function buildWorkerArgv(opts: {
 	const args = [
 		...pi.baseArgs,
 		"--no-extensions",
-		"--extension", "/home/ichirou/Dev/vendor/pi-free",
+		"--extension", "/home/ichirou/Dev/vendor/pi-zen/index.ts",
 		"--no-skills",
 		"--no-prompt-templates",
 		"--no-context-files",
